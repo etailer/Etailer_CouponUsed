@@ -36,7 +36,7 @@ Source: https://github.com/OpenMage/magento-mirror/blob/magento-1.9/app/code/cor
 
 Typically a Sales Rule set up to allow free shipping with no other discount will be set up as below:
 
-
+![](https://raw.githubusercontent.com/etailer/Etailer_CouponUsed/docs/free-shipping.png)
 
 One or many coupons are then created, a typical use case is multiple coupons valid for a single use per coupon.
 
