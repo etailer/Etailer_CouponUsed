@@ -1,0 +1,12 @@
+{
+  "name": "etailer/couponused",
+  "type": "magento-module",
+  "license": "OSL-3.0",
+  "description": "Workaround for Magento 1 not counting used coupons for $0 discount orders",
+  "authors": [
+    {
+      "name": "Robert Coleman",
+      "email": "github@robert.net.nz"
+    }
+  ]
+}
