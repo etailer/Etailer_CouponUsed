@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Etailer_CouponUsed>
+            <version>1.0.0</version>
+        </Etailer_CouponUsed>
+    </modules>
+    <global>
+        <models>
+            <etailer_couponused>
+                <class>Etailer_CouponUsed_Model</class>
+            </etailer_couponused>
+        </models>
+        <events>
+            <sales_order_place_after>
+                <observers>
+                    <salesrule>
+                        <class>etailer_couponused/observer</class>
+                        <method>sales_order_afterPlace</method>
+                    </salesrule>
+                </observers>
+            </sales_order_place_after>
+        </events>
+    </global>
+</config>
