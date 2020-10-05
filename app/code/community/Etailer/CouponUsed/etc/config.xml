@@ -14,10 +14,10 @@
         <events>
             <sales_order_place_after>
                 <observers>
-                    <salesrule>
+                    <salesrule_etailer>
                         <class>etailer_couponused/observer</class>
                         <method>sales_order_afterPlace</method>
-                    </salesrule>
+                    </salesrule_etailer>
                 </observers>
             </sales_order_place_after>
         </events>
