@@ -8,5 +8,8 @@
       "name": "Robert Coleman",
       "email": "github@robert.net.nz"
     }
-  ]
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
 }
